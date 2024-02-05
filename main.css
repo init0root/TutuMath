@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: funny;
+}
+
+
+@font-face {
+    font-family: "funny";
+    src: url('Funny\ &\ Cute.ttf');
+}
+
+
+body{
+    background-color: #01499a;
+}
+
+#logo{
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+}
+
+img{
+    width: 240px;
+}
+
+#textbar{
+    text-align: center;
+}
+
+#pts{
+    background: black;
+    color: #ffff67;
+}
+
+#visible{
+    color: #ffff67;
+    padding: 10px;
+    background: black;
+    overflow: hidden;
+    margin-top: 20px;
+    text-align: center;
+}
+
+p{
+    color: #ffff67;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.btn1{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 3px;
+    font-size: 18px;
+    background: #ffff67;
+    color: black;
+    width: 50px;
+    height: 50px;
+}
+
+
+.btn:active {
+    border-color: white;
+    background: black;
+    color: #ffff67;
+  }
+
+  
